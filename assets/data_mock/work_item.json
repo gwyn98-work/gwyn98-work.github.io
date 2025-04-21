@@ -1,0 +1,29 @@
+{
+    "itemCount": 4,
+    "items": [
+        {
+            "id": "1",
+            "itemPhoto": "assets/images/lg_bg.png",
+            "title": "LG webOS TV",
+            "shortDesc": "TV applications for more than 10 regions, across all chip lines, focusing on Korea and Japan."
+        },
+        {
+            "id": "2",
+            "itemPhoto": "assets/images/vivino_bg.png",
+            "title": "Vivino",
+            "shortDesc": "An online wine marketplace and wine app from the US, which has been downloaded more than 60 million times on Android and Apple devices"
+        },
+        {
+            "id": "3",
+            "itemPhoto": "assets/images/bac_a_bank_bg.png",
+            "title": "BAC A BANK",
+            "shortDesc": "Fast financial transactions, absolute security - simple with BAC A BANK Mobile Banking."
+        },
+        {
+            "id": "4",
+            "itemPhoto": "assets/images/lvb_bg.png",
+            "title": "LVB DigiBank",
+            "shortDesc": "LVB DigiBank is the Digital Bank of the Lao-Vietnamese Joint Venture Bank"
+        }
+    ]
+}

@@ -32,40 +32,11 @@
     <title>my_porfolio</title>
     <link rel="manifest" href="manifest.json" />
 
-    <script>
-      // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = ""648320707"";
-    </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
   </head>
   <body>
-    <script>
-      window.addEventListener("load", function (ev) {
-        // Download main.dart.js
-        _flutter.loader
-          .loadEntrypoint({
-            serviceWorker: {
-              serviceWorkerVersion: serviceWorkerVersion,
-            },
-            onEntrypointLoaded: function (engineInitializer) {
-              let config = {
-                renderer: "canvaskit",
-              };
-              engineInitializer
-                .initializeEngine(config)
-                .then(function (appRunner) {
-                  appRunner.runApp();
-                });
-            },
-          })
-          .then(function (engineInitializer) {
-            return engineInitializer.initializeEngine();
-          })
-          .then(function (appRunner) {
-            return appRunner.runApp();
-          });
-      });
-    </script>
+    <!-- Include the flutter_bootstrap.js to ensure buildConfig is set correctly -->
+    <script src="flutter_bootstrap.js" defer></script>
   </body>
 </html>
